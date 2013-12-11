@@ -35,9 +35,7 @@ Shoes.app {
   lights = [light(0, fuchsia),
             light(1, blue),
             light(2, green)]
-
   lights[1].click do
     run_chase_animation(lights)
   end
-
 }
